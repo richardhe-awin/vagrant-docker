@@ -1,6 +1,10 @@
 # vagrant-docker
 A Vagrant VM have docker and docker compose installed ready to roll
 
+### Prerequisites
+
+Vagrant: http://www.vagrantup.com/downloads
+
 ### How to use? 
 1) git clone git@github.com:richardhe-awin/vagrant-docker.git   
 
@@ -14,4 +18,5 @@ A Vagrant VM have docker and docker compose installed ready to roll
 #  echo 'DOCKER_OPTS="$DOCKER_OPTS --insecure-registry={your private docker hub host name}:5000"' | sudo tee -a /etc/default/docker
 ```
 
-4) run `vagrant up`
+4) run `vagrant up` to start provisioning the VM
+5) run `vagrant ssh` to start using the virtual machine
