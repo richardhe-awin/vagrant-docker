@@ -18,5 +18,6 @@ Vagrant: http://www.vagrantup.com/downloads
 #  echo 'DOCKER_OPTS="$DOCKER_OPTS --insecure-registry={your private docker hub host name}:5000"' | sudo tee -a /etc/default/docker
 ```
 
-4) run `vagrant up` to start provisioning the VM
+4) run `vagrant up` to start provisioning the VM   
+
 5) run `vagrant ssh` to start using the virtual machine
