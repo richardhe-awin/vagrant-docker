@@ -86,12 +86,4 @@ Vagrant.configure(2) do |config|
     sudo service docker restart
   SHELL
 
-  # hostname
-  config.vm.hostname="vagrant.ubuntu"
-  # define vm
-  config.vm.define "ubuntu" do |ubuntu|
-  end
-  # host manager
-  config.hostmanager.enabled = true
-  config.hostmanager.manage_host = true
 end
